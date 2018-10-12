@@ -1,0 +1,457 @@
+
+
+h1{
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-style: 400;
+	color: black;
+	font-size: 1.5vw;
+	position: absolute;
+	top: 3vh;
+	left: 3vw;
+}
+
+h2{
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-style: 400;
+	color: black;
+	font-size: 1.5vw;
+	position: absolute;
+	left: 4vw;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+	-webkit-text-underline-position: under;
+	-ms-text-underline-position: below;
+  	text-underline-position: under;
+}
+
+p{
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-style: 400;
+	color: black;
+	font-size: 1.1vw;
+}
+
+#contact{
+	top: 13vh;
+}
+#index{
+	top: 8vh;
+}
+
+#news{
+	top: 18vh;
+}
+
+#contact_underline{
+	top: 13vh;
+	text-decoration: underline;
+	-webkit-text-underline-position: under;
+ 	-ms-text-underline-position: below;
+	text-underline-position: under;
+}
+
+#index_underline{
+	top: 8vh;
+	text-decoration: underline;
+	-webkit-text-underline-position: under;
+ 	-ms-text-underline-position: below;
+	text-underline-position: under;
+}
+
+#news_underline{
+	top: 18vh;
+	text-decoration: underline;
+	-webkit-text-underline-position: under;
+ 	-ms-text-underline-position: below;
+	text-underline-position: under;
+}
+
+.projectpagetitle{
+	top: 8vh;
+	text-decoration: underline;
+	-webkit-text-underline-position: under;
+ 	-ms-text-underline-position: below;
+	text-underline-position: under;
+}
+
+#contactdetails{
+	position: absolute;
+	left: 7vw;
+	top: 23vh;
+
+}
+
+#introtext{
+	position: absolute;
+	left: 7vw;
+	top: 18vh;
+	width: 35vw;
+}
+
+#colophon_text{
+	font-style: italic;
+
+	}
+
+#back{
+	position: absolute;
+	bottom:5vh;
+}
+
+.nextchapter{
+	position: absolute;
+	bottom: 5vh;
+	left: 92vw;
+
+}
+
+
+#video{
+	position: absolute;
+	top: 18vh;
+	left: 15vw;
+}
+
+#video_caption{
+	position: absolute;
+	bottom: 5vh;
+	left: 15vw;
+
+}
+
+
+.gallery{
+	position: absolute;
+	top:18vh;
+	left: 20vw;
+	width: 60vw;
+}
+
+.gallery img{
+	width: 95%;
+	height:95%;
+}
+
+.gallery-vertical{
+	position: absolute;
+	top:18vh;
+	left: 36vw;
+	width: 28vw;
+	}
+
+.gallery-vertical img{
+	width: 95%;
+	height:95%;
+}
+
+.gallery-square{
+
+	position: absolute;
+	top:18vh;
+	left: 52vw;
+	width: 40vw;
+
+	}
+
+.gallery-square img{
+	width: 95%;
+	height:95%;
+}
+
+.cycle-caption{
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-style: 400;
+	color: black;
+	font-size: 1.1vw;
+	line-height: 1.1vw;
+	z-index: 0;
+
+}
+.cycle-next{
+	z-index: 0;
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-style: 400;
+	color: black;
+	font-size: 1.1vw;
+	line-height: 0;
+	z-index: 0;
+	text-align: right;
+
+}
+
+/*-----------------------backround svg mainpage--------------------------*/
+#bg_svg{
+	position: absolute;
+	
+/*	top: -10vh;
+	width: 70vw;*/
+	fill:#5d5d5d;
+	
+width: 55vw;
+left: 22.5vw;
+}
+
+.popup{
+	width: 20vw;
+	height: 16vw;
+	position: fixed;
+	border: 0.12vw #5d5d5d solid;
+	background-color: white;
+	display: none;
+
+}
+
+.popup img{
+	width: 90%;
+	padding: 1vw;
+
+	}
+.popup p {
+	padding-left: 1vw;
+	line-height: 1.1vw;
+
+}
+.popuptitle{
+	text-decoration: underline;
+}
+
+/*-----------------------backround svg mainpage--------------------------*/
+
+/*indexpage*/
+
+#table{
+	position: absolute;
+	top: 18vh; 
+	left: 7vw;
+	height: 75vh; 
+	width: 85vw;
+	overflow: scroll;
+	}
+
+.row{
+	display: flex;
+	padding: 5px  5px;
+	border-bottom: 0.12vw black solid;
+
+}
+
+.col-1 {
+	width: 80%;
+	}
+
+.col-2 {
+	width: 10%;
+	}
+
+.info_4 {
+	width: 10%;
+	}
+#toprow p{
+
+font-style: italic;
+}
+
+/*---------------------------------newspage-------------------------------------------*/
+.news_container{
+	position: absolute;
+	top: 18vh; 
+	left: 12vw;
+	height: 75vh; 
+	width: 85vw;
+	overflow: scroll;
+	}
+.news_img{
+	width: 30%;
+	left:40vw;
+	top: 0;
+	}
+.news_date{
+	padding-top: 1vh;
+	}
+
+
+
+
+/*---------------------------------newspage-------------------------------------------*/
+
+
+/*---------------------------------responsive ----------------------------------------------*/
+/*---------------------------------responsive ----------------------------------------------*/
+/*---------------------------------responsive ----------------------------------------------*/
+
+@media screen and (max-width:900px)  {
+	/*	body { background: green;}
+	*/
+
+h1{
+
+	font-size: 3vw;
+	position: absolute;
+	top: 3vh;
+	left: 5vw;
+}
+
+h2{
+
+	font-size: 3vw;
+	position: absolute;
+	left: 8vw;
+}
+
+p{
+	font-size: 2.5vw;
+}
+
+.news_container{
+top: 23vh;
+
+}
+
+.news_container img{
+	width: 84%;
+	}
+
+#introtext{
+	position: absolute;
+	left: 8vw;
+	top: 18vh;
+	width: 84vw;
+}
+#contactdetails{
+	position: absolute;
+	left: 8vw;
+	top: 23vh;
+}
+
+.nextchapter{
+	position: absolute;
+	bottom: 5vh;
+	left: 84vw;
+
+}
+
+/*-------------------indexpage responsive------------------------*/
+#table{
+	position: absolute;
+	top: 23vh; 
+	left: 8vw;
+	height: 85vh; 
+	width: 84vw;
+	overflow: scroll;
+	}
+
+
+.col-1 {
+	width: 65%;
+	}
+
+.col-2 {
+	width: 15%;
+	}
+
+.info_4 {
+	width: 20%;
+	}
+
+
+/*-------------------indexpage responsive------------------------*/
+/*-------------------image galleries responsive------------------------*/
+
+.gallery{
+	position: absolute;
+	top:18vh;
+	left: 8vw;
+	width: 84vw;
+}
+
+.gallery img{
+	width: 95%;
+	height:95%;
+}
+
+.gallery-vertical{
+	position: absolute;
+	top:18vh;
+	left: 8vw;
+	width: 84vw;
+	}
+
+.gallery-vertical img{
+	width: 95%;
+	height:95%;
+}
+
+.gallery-square{
+
+	position: absolute;
+	top:45vh;
+	left: 8vw;
+	width: 84vw;
+
+	}
+
+.gallery-square img{
+	width: 95%;
+	height:95%;
+}
+
+
+
+.cycle-caption{
+
+	font-size: 2vw;
+	line-height: 2vw;
+	z-index: 0;
+
+}
+.cycle-next{
+
+	font-size: 2vw;
+	line-height: 0vw;
+	padding-top: 1vw;
+	z-index: 0;
+	text-align: right;
+
+}
+/*-------------------image galleries responsive------------------------*/
+/*-------------------video responsive------------------------*/
+#video{
+	position: absolute;
+	top: 18vh;
+	left: 8vw;
+}
+
+#video_caption{
+	position: absolute;
+	bottom: 5vh;
+	left: 8vw;
+}
+
+/*-------------------video responsive------------------------*/
+
+#bg_svg{
+	position: absolute;
+	
+/*	top: -10vh;
+	width: 70vw;*/
+	fill:black;
+	
+width: 84vw;
+
+left: 8vw;
+top:23vh;
+}
+
+}
+
