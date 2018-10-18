@@ -435,7 +435,8 @@ top: 23vh;
 #video{
 	position: absolute;
 	top: 18vh;
-	left: 8vw;
+	left: 5vw;
+	width: 90vw;
 }
 
 #video_caption{
