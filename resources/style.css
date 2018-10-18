@@ -196,10 +196,11 @@ p{
 	
 /*	top: -10vh;
 	width: 70vw;*/
-	fill:#5d5d5d;
+	fill:#1e1e1e;
 	
-width: 55vw;
+width: 50vw;
 left: 22.5vw;
+top:5vh;
 }
 
 .popup{
@@ -336,9 +337,14 @@ top: 23vh;
 
 .nextchapter{
 	position: absolute;
-	bottom: 5vh;
+	bottom: 3vh;
 	left: 84vw;
 
+}
+
+#back{
+	position: absolute;
+	bottom:3vh;
 }
 
 /*-------------------indexpage responsive------------------------*/
@@ -445,12 +451,19 @@ top: 23vh;
 	
 /*	top: -10vh;
 	width: 70vw;*/
-	fill:black;
+	fill:#1e1e1e;
 	
 width: 84vw;
 
 left: 8vw;
 top:23vh;
+}
+
+.popup p {
+	padding-left: 1vw;
+	line-height: 1.1vw;
+	font-size: 1.1vw;
+
 }
 
 }
