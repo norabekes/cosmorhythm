@@ -29,7 +29,7 @@
 	.st3{fill:#8C8C8C;}
 	.st4{fill:#ADADAD;}
 	.st5{fill:#686767;}
-	.st6{fill:#686868;}
+	.st6{fill:#000000;}
 
 /*	.st0{fill:#7C7C7C;}
 	.st1{fill:#7F7F7F;}
@@ -5951,18 +5951,18 @@
 
 <a href="intro.html"><div class="popup" id="box_intro">
 	<p class="popuptitle">Introduction</p>
-	<p>Cosmo Rhythm consists of a series <br>of ritualistic objects, with which I perform conscious repetitive actions....</p>
+	<p>Cosmo Rhythm consists of a series <br>of objects, with which I perform conscious repetitive actions....</p>
 </div></a>
 
 <a href="sketches.html"><div class="popup" id="box_sketches">
 	<p class="popuptitle">Sketches: Cosmo Rhythm</p>
 	<img src="images/homepage/popup_img1.jpg"/>
 </div></a>
-
+<!-- 
 <a href="composmentis.html"><div class="popup" id="box_composmentis">
 	<p class="popuptitle">Compos Mentis Manufacturers</p>
 	<img src="images/homepage/popup_img2.jpg"/>
-</div></a>
+</div></a> -->
 
 <a href="process.html"><div class="popup" id="box_process">
 	<p class="popuptitle">Cosmo Rhythm: Process</p>
@@ -6046,21 +6046,21 @@
 });
 
 
-	$("#path_4, #box_composmentis").mouseenter(function(e) {
-		var y = e.clientY;
-		var x = e.clientX;
+// 	$("#path_4, #box_composmentis").mouseenter(function(e) {
+// 		var y = e.clientY;
+// 		var x = e.clientX;
 
-  		$("#box_composmentis").css({
-  			top: y,
-  			left: x
-  		}).show();
-	})
-		.mouseleave(function(e){ 
-		console.log('leave')
+//   		$("#box_composmentis").css({
+//   			top: y,
+//   			left: x
+//   		}).show();
+// 	})
+// 		.mouseleave(function(e){ 
+// 		console.log('leave')
 
-		e.stopPropagation()
-		$("#box_composmentis").hide()
-});
+// 		e.stopPropagation()
+// 		$("#box_composmentis").hide()
+// });
 
 	$("#path_5, #box_process").mouseenter(function(e) {
 		var y = e.clientY;
